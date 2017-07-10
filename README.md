@@ -31,3 +31,32 @@ $("#hometown").region({
 
 1. url 是json文件地址，使用ajax实现
 2. type默认是get方式提交数据
+
+## 瀑布流
+
+### 基本用法
+
+1. 引入jquery和插件
+
+```html
+ <div class="containers">
+     <div class="items">
+
+     </div>
+     <div class="btn">点击加载.</div>
+</div>
+```
+
+2. 使用
+
+```js
+$(".items").waterfull();
+```
+
+### Demo
+
+1. 需要服务器运行
+2. 该案例，使用ajax和分页向后台请求数据，添加到页面上之后使用瀑布流插件。
++ jquery
++ artTemplate
++ waterfall
